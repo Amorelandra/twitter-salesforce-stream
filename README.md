@@ -11,20 +11,20 @@ Stream tweets into Salesforce via Platform Events
 You will need the following environment variables:
 
 ### Twitter
-1. TWITTER_CONSUMER_KEY -- Twitter app key
-1. TWITTER_CONSUMER_SECRET -- Twitter app secret
-1. TWITTER_ACCESS_TOKEN -- Twitter client token
-1. TWITTER_ACCESS_TOKEN_SECRET -- Twitter client secret
-1. TWITTER_SEARCH_STRING -- Search keywords, comma separated
+1. __TWITTER_CONSUMER_KEY__ -- Twitter app key
+1. __TWITTER_CONSUMER_SECRET__ -- Twitter app secret
+1. __TWITTER_ACCESS_TOKEN__ -- Twitter client token
+1. __TWITTER_ACCESS_TOKEN_SECRET__ -- Twitter client secret
+1. __TWITTER_SEARCH_STRING__ -- Search keywords, comma separated
 
 ### Salesforce
-1. SALESFORCE_CLIENT_ID -- Salesforce Connected App ID
-1. SALESFORCE_CLIENT_SECRET -- Salesforce Connected App secret
-1. SALESFORCE_USERNAME -- Your Salesforce username
-1. SALESFORCE_PASSWORD -- Your Salesforce password
-1. SALESFORCE_SECURITY_TOKEN -- Your Salesforce security token
+1. __SALESFORCE_CLIENT_ID__ -- Salesforce Connected App ID
+1. __SALESFORCE_CLIENT_SECRET__ -- Salesforce Connected App secret
+1. __SALESFORCE_USERNAME__ -- Your Salesforce username
+1. __SALESFORCE_PASSWORD__ -- Your Salesforce password
+1. __SALESFORCE_SECURITY_TOKEN__ -- Your Salesforce security token
 
-If you're deploying with Heroku, just throw these variables into an .env file in the project base directory and use `heroku local` to launch the app with all of the env vars automatically set!
+If you're deploying with Heroku, just throw these variables into an .env file in the project base directory and use `heroku local` to launch the app.
 
 Here's a template to copy/paste (or you can rename `.exampleenv` in this project to `.env`):
 ```code
