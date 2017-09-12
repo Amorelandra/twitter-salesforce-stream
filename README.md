@@ -26,6 +26,9 @@ You will need the following environment variables:
 1. __SALESFORCE_PASSWORD__ -- Your Salesforce password
 1. __SALESFORCE_SECURITY_TOKEN__ -- Your Salesforce security token
 
+### Node.js
+1. __NODE_ENV__ -- Use `production` for production, or `sandbox` for scratch orgs
+
 If you're deploying with Heroku, just throw these variables into an .env file in the project base directory and use `heroku local` to launch the app.
 
 Here's a template to copy/paste (or you can rename `.exampleenv` in this project to `.env`):
@@ -40,6 +43,7 @@ SALESFORCE_CLIENT_SECRET=
 SALESFORCE_USERNAME=
 SALESFORCE_PASSWORD=
 SALESFORCE_SECURITY_TOKEN=
+NODE_ENV=
 ```
 
 ## Run
