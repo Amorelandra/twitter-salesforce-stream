@@ -2,7 +2,8 @@
 Stream tweets into Salesforce via Platform Events
 
 ## Install
-1. Clone this repository
+1. Type `git clone git@github.com:Amorelandra/twitter-salesforce-stream.git`
+1. Type `cd twitter-salesforce-stream`
 1. Type `npm init`
 
 ## Configure
