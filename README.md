@@ -1,7 +1,6 @@
 # twitter-salesforce-stream
 Stream tweets into Salesforce via Platform Events
 
-
 ## Install
 1. Clone this repository
 1. Type `npm init`
@@ -39,3 +38,6 @@ SALESFORCE_USERNAME=
 SALESFORCE_PASSWORD=
 SALESFORCE_SECURITY_TOKEN=
 ```
+
+## Run
+1. Type `npm start`
