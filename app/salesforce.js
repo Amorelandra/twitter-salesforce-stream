@@ -15,7 +15,7 @@ if (!securityToken) { missing("SALESFORCE_SECURITY_TOKEN"); }
 let org = force.createConnection({
     clientId,
     clientSecret,
-    environment: "sandbox",
+    environment: (process.env.NODE_ENV == "production" ? "production" : "sandbox"),
     redirectUri: "http://localhost:3000/oauth/_callback",
     mode: "single",
     version: "40.0",
