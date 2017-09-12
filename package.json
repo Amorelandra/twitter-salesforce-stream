@@ -9,7 +9,7 @@
   "author": "Emily Rose <erose@salesforce.com>",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "nforce": "^1.7.0",
+    "nforce": "https://github.com/jthurst01/nforce/tarball/master",
     "twit": "^2.2.9"
   },
   "devDependencies": {},
