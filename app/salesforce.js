@@ -10,7 +10,7 @@ if (!username) { missing("SALESFORCE_USERNAME"); }
 if (!password) { missing("SALESFORCE_PASSWORD"); }
 if (!clientId) { missing("SALESFORCE_CLIENT_ID"); }
 if (!clientSecret) { missing("SALESFORCE_CLIENT_SECRET"); }
-if (!securityToken) { missing("SALESFORCE_PASSWORD"); }
+if (!securityToken) { missing("SALESFORCE_SECURITY_TOKEN"); }
 
 let org = force.createConnection({
     clientId,
@@ -30,7 +30,7 @@ org.authenticate({ username, password, securityToken }, (err) => {
     } else {
         console.log("*** Salesforce authentication successful.");
         console.log("- Instance URL: %s", org.oauth.instance_url);
-        console.log("- OAuth Token: %s", org.oauth.access_token);
+        // console.log("- OAuth Token: %s", org.oauth.access_token);
         org.authenticated = true;
     }
 });
