@@ -9,9 +9,6 @@
   "author": "Emily Rose <erose@salesforce.com>",
   "license": "BSD-3-Clause",
   "dependencies": {
-    "approximate-number": "^2.0.0",
-    "express": "^4.15.4",
-    "faye": "^1.2.4",
     "nforce": "^1.7.0",
     "twit": "^2.2.9"
   },
